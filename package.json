@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "My solid Nuxt.js project",
+  "author": "ChangJoo Park",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "vue-editor-js": "file:../vue-editor-js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
